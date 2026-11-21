@@ -31,11 +31,11 @@ Chaque skill est un dossier contenant un `SKILL.md` avec un frontmatter `name` e
 | [auditor](skills/gemini/auditor/SKILL.md) | Auditer le code et remonter les problèmes significatifs avec preuves. |
 | [documenter](skills/gemini/documenter/SKILL.md) | Mettre à jour la documentation touchée par un changement. |
 | [doc-auditor](skills/gemini/doc-auditor/SKILL.md) | Vérifier la cohérence entre documentation et comportement du code. |
-| [kaizen](skills/gemini/kaizen/SKILL.md) | Analyser les sessions Gemini via le serveur MCP Kaizen et recommander des améliorations concrètes. |
+| [observer](skills/gemini/observer/SKILL.md) | Analyser des données d’activité fournies et proposer des améliorations aux outils et workflows. |
 | [deep-reviewer](skills/gemini/deep-reviewer/SKILL.md) | Coordonner quatre revues spécialisées avant merge et consolider les constats. |
 | [repo-onboarding](skills/gemini/repo-onboarding/SKILL.md) | Cartographier un dépôt et préparer une documentation d’accueil vérifiable avec contrats et modèles. |
 
-Ce sont des skills minimalistes, pas des agents autonomes : chacun apporte une méthode ciblée. Ils peuvent être liés localement pendant leur élaboration :
+Ces skills vont de méthodes ciblées à des procédures accompagnées de ressources. Ils peuvent être liés localement pendant leur élaboration :
 
 ```bash
 gemini skills link ./skills/gemini/auditor --scope user
